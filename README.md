@@ -24,7 +24,10 @@ Here are the sample output requests and responses:
 
 Below are the logs from the application showing the services starting up on their respective ports and successfully handling incoming requests.<br>
 
-User (5001)
+User (5001) <br>
+
 ![img_4.png](images/user_service_logs.png)
-Order(5002)
+
+Order(5002) <br>
+
 ![img_6.png](images/order_Service_logs.png)
