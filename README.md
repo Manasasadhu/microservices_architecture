@@ -30,4 +30,8 @@ User (5001) <br>
 
 Order(5002) <br>
 
-![img_6.png](images/order_Service_logs.png)
+![img_6.png](images/order_Service_logs.png) <br>
+
+Detailed description of setup and implementation: <br>
+
+I started by installing the necessary dependencies (Requests and Flask) and setting up a virtual environment for this assignment.  I then made two microservices(as in two different folders in the same repository): an Order Service that runs on port 5002 and a User Service that runs on port 5001.  I was able to communicate with both services using HTTP requests after they were operational(spinned up).  For instance, I could use the User Service to create a new user and then use the Order Service to place an order, which would retrieve the user information from the User Service.  This demonstrated how the two separate services, which were created and implemented independently, interact via REST APIs.
